@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
 }
 
 .text-muted {
@@ -14,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #d35400;
 }
 
 p {
@@ -35,7 +36,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #d35400;
 }
 
 a:hover,
@@ -69,12 +70,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #d35400;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #d35400;
 }
 
 .btn-primary:hover,
@@ -108,25 +109,18 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #d35400;
+    background-color: #d35400;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #d35400;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
+    border-radius: 50%;
 }
 
 .btn-xl:hover,
@@ -160,12 +154,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #d35400;
+    background-color: #d35400;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #d35400;
     background-color: #fff;
 }
 
@@ -176,7 +170,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #d35400;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +185,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #d35400;
+    background-color: #d35400;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #d35400;
 }
 
 .navbar-default .nav li a {
@@ -215,13 +209,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #d35400;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #d35400;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -265,7 +259,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../assets/flower.jpg);
+    background-image: url(../img/header/header.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -281,19 +275,41 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
+    font-weight: 700;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #1FD4DC;
+}
+
+header .intro-text .intro-summary {
+    font-family: "Roboto Slab";
+    font-size: 40px;
+    font-weight: 100;
+}
+
+header .intro-text .intro-button-bar {
+    padding-top: 20px;
+    background: rgba(106,42,0,.5);
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left:25%;
+    border-radius: 50px;
+    opacity: .5;
+}
+
+header .intro-text .intro-button-bar .header-button {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media(min-width:768px) {
@@ -304,19 +320,38 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Lato",light,sans-serif;
         font-size: 40px;
-        font-style: italic;
+        font-weight: 700;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        text-transform: lowercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 50px;
+        color: #1FD4DC;
+    }
+    header .intro-text .intro-summary {
+        font-family: "Roboto Slab";
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    header .intro-text .intro-button-bar {
+        padding-top: 20px;
+        background: rgba(106,42,0,.5);
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left:25%;
+        border-radius: 50px;
+        opacity: .5;
+    }
+    header .intro-text .intro-button-bar .header-button {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -493,7 +528,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #d35400;
 }
 
 .timeline>li .timeline-image h4 {
@@ -680,7 +715,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #d35400;
     box-shadow: none;
 }
 
@@ -758,7 +793,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #d35400;
 }
 
 .btn:focus,
@@ -846,12 +881,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #d35400;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #d35400;
 }
 
 img::selection {
@@ -863,5 +898,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #d35400;
 }
