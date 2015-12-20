@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Lato",sans-serif;
+    font-family: "Roboto Slab";
     font-weight: 300;
 }
 
@@ -256,11 +256,24 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .profile-pic{
-  max-width:100%; 
-  max-height:100%;
-  margin:auto;
-  display:block;
-  border-radius: 5%;
+    max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
+    border-radius: 5%;
+}
+
+.col-md-6:after{
+    padding-top: 25%;
+    display: block;
+    content: '';
+}
+
+.whoiam-body{
+    font-family: "Roboto Slab";
+    font-size: 1vw;
+    font-weight: 300;
+    text-align: left;
 }
 
 .shitido-row{
@@ -281,16 +294,15 @@ fieldset[disabled] .btn-xl.active {
 .shitido-caption{
     font-family: "Roboto Slab";
     font-style: italic;
-    font-size: 48px;
-    font-size: 3.75vw; 
+    font-size: 4vw; 
     font-weight: 700;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz:transform: translateY(-50%);
     transform: translateY(-50%);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .faded{
@@ -313,14 +325,6 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 22px;
 }
 
 header .intro-text .intro-heading {
@@ -357,14 +361,6 @@ header .intro-text .intro-button-bar .header-button {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Lato",light,sans-serif;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 40px;
     }
 
     header .intro-text .intro-heading {
@@ -408,7 +404,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab";
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -487,7 +483,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab";
     font-size: 16px;
     font-style: italic;
 }
@@ -865,7 +861,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab";
     font-size: 16px;
     font-style: italic;
 }
