@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #d35400;
+    color: #000;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #000;
 }
 
 h1,
@@ -257,6 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
 
 .shitido-row{
+    border-radius: 5px;
     margin-top:20px;
     margin-right: -15px;
     margin-left: -15px;
@@ -282,6 +283,10 @@ fieldset[disabled] .btn-xl.active {
     transform: translateY(-50%);
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.faded{
+    color: #7f8c8d;
 }
 
 header {
