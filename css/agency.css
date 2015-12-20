@@ -255,6 +255,35 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
+.shitido-row{
+    margin-top:20px;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+    background-size:100%;
+}
+
+.shitido-row:after{
+    padding-top: 25%;
+    display: block;
+    content: '';
+}
+
+.shitido-caption{
+    font-family: "Roboto Slab";
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz:transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -288,8 +317,8 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color: #1FD4DC;
-    opacity: .6;
+    color: #55B4B0;
+    opacity: .8;
 }
 
 header .intro-text .intro-summary {
@@ -331,8 +360,8 @@ header .intro-text .intro-button-bar .header-button {
         font-size: 75px;
         font-weight: 700;
         line-height: 50px;
-        color: #1FD4DC;
-        opacity: .6;
+        color: #55B4B0;
+        opacity: .8;
     }
     header .intro-text .intro-summary {
         font-family: "Roboto Slab";
