@@ -271,7 +271,8 @@ fieldset[disabled] .btn-xl.active {
 
 .whoiam-body{
     font-family: "Roboto Slab";
-    font-size: 1vw;
+    font-size: 2vw;
+    font-size: 16px;
     font-weight: 300;
     text-align: left;
 }
