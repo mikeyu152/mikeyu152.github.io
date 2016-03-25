@@ -1,0 +1,113 @@
+.title {
+	font-family: "Montserrat";
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.dates {
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 30px;
+}
+
+section {
+	background-attachment: scroll;
+    height: 100%;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 10% 0;
+}
+
+#blend {
+	background-image: url(../img/experience/blend.jpg);
+	color: #ecf0f1;
+}
+
+#blend:hover {
+	background-image: url(../img/experience/blendcolor.jpg);
+	color: #ecf0f1;
+}
+
+#nearpod {
+	background-image: url(../img/experience/nearpod.jpg);
+	color: #211e16;
+}
+
+#nearpod:hover {
+	background-image: url(../img/experience/nearpodcolor.jpg);
+	color: #211e16;
+}
+
+#kairos {
+	background-image: url(../img/experience/kairos.jpg);
+	color: #ecf0f1;
+}
+
+#kairos:hover {
+	background-image: url(../img/experience/kairoscolor.jpg);
+	color: #ecf0f1;
+}
+
+#treehacks {
+	background-image: url(../img/experience/treehacks.jpg);
+	color: #211e16;
+}
+
+#treehacks:hover {
+	background-image: url(../img/experience/treehackscolor.jpg);
+	color: #211e16;
+}
+
+#janestreet {
+	background-image: url(../img/experience/janestreet.jpg);
+	color: #ecf0f1;
+}
+
+#janestreet:hover {
+	background-image: url(../img/experience/janestreetcolor.jpg);
+	color: #ecf0f1;
+}
+
+#bloomberg {
+	background-image: url(../img/experience/bloomberg.jpg);
+	color: #211e16;
+}
+
+#bloomberg:hover {
+	background-image: url(../img/experience/bloombergcolor.jpg);
+	color: #211e16;
+}
+
+#stanford2025 {
+	background-image: url(../img/experience/stanford2025.jpg);
+	color: #ecf0f1;
+}
+
+#stanford2025:hover {
+	background-image: url(../img/experience/stanford2025color.jpg);
+	color: #ecf0f1;
+}
+
+#stanford {
+	background-image: url(../img/experience/stanford.jpg);
+	color: #211e16;
+}
+
+#stanford:hover {
+	background-image: url(../img/experience/stanfordcolor.jpg);
+	color: #211e16;
+}
+
+#waterresearch {
+	background-image: url(../img/experience/waterresearch.jpg);
+	color: #ecf0f1;
+}
+
+#waterresearch:hover {
+	background-image: url(../img/experience/waterresearchcolor.jpg);
+	color: #ecf0f1;
+}
