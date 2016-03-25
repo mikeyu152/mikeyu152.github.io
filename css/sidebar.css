@@ -1,0 +1,50 @@
+body {
+	background: #ecf0f1;
+}
+
+.content {
+	overflow-y: scroll;
+	height: 100vh;
+	padding: 0;
+}
+
+.sidebar {
+	height: 100vh;
+	vertical-align: middle;
+}
+
+.sidebar-item {
+	text-align: center;
+	padding: 2vh 0;
+	font-family: Lato;
+	font-weight: 100;
+	font-size: 1.5vw;
+	color: #211e16;
+}
+
+.sidebar a {
+	color: #211e16;
+}
+
+.sidebar a:hover {
+	font-style: underline;
+}
+
+.v-wrap{
+    white-space: nowrap;
+    text-align: center;
+}
+.v-wrap:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    /* adjust for white space between pseudo element and next sibling */
+    /* stretch line height */
+    height: 100%; 
+}
+.v-box{
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+}
