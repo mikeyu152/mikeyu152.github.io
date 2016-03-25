@@ -1,3 +1,13 @@
+body {
+	background: #ecf0f1;
+}
+
+.content {
+	overflow-y: scroll;
+	height: 100vh;
+	padding: 0;
+}
+
 .title {
 	font-family: "Montserrat";
 	font-size: 30px;
@@ -12,7 +22,6 @@
 
 section {
 	background-attachment: scroll;
-    height: 100%;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
