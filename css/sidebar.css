@@ -48,3 +48,19 @@ body {
     vertical-align: middle;
     white-space: normal;
 }
+
+@media (max-width: 768px) {
+	.sidebar {
+		height: 10vh;
+		vertical-align: middle;
+	}
+
+	.sidebar-item {
+		display: inline;
+		text-align: center;
+		padding: 1vh 1.5vw;
+		font-family: Lato;
+		font-weight: 100;
+		font-size: 14px;
+		color: #211e16;
+}
