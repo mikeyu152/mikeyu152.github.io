@@ -55,6 +55,10 @@ body {
 		vertical-align: middle;
 	}
 
+	.content {
+		height: 90vh;
+	}
+
 	.sidebar-item {
 		display: inline;
 		text-align: center;
