@@ -1,6 +1,9 @@
 blendcolor = new Image(1602,402)
 blendcolor.src = "img/experience/blendcolor.jpg"
 
+d21color = new Image(1602,402)
+d21color.src = "img/experience/d21color.jpg"
+
 nearpodcolor = new Image(1600,40)
 nearpodcolor.src = "img/experience/nearpodcolor.jpg"
 
