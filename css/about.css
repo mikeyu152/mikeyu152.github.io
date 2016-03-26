@@ -1,0 +1,64 @@
+#about-content {
+}
+
+#pic-container {
+	background-attachment: scroll;
+    background-image: url(../img/me.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 90vh;
+    overflow-y:scroll;
+}
+
+@media(min-width: 768px) {
+	#pic-container {
+		height: 125vw;
+    	overflow-y:scroll;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "Lato";
+	font-weight: 100;
+	color: #ecf0f1;
+	text-transform: lowercase;
+	text-align: left;
+}
+
+a {
+	color: #fff;
+	font-weight: 300;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fff;
+    font-style: underline;
+}
+
+.row {
+	padding: 1vh 0;
+}
+
+
+.title {
+	padding: 5vh 0;
+}
+
+.title h1 {
+	font-family: "Montserrat";
+	font-weight: 400;
+}
