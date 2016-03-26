@@ -24,6 +24,9 @@ body {
 
 .sidebar a {
 	color: #211e16;
+	font-family: Lato;
+	font-weight: 100;
+	font-size: 1.5vw;
 }
 
 .sidebar a:hover {
