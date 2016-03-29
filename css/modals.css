@@ -1,0 +1,28 @@
+.modal-title {
+	font-family: "Lato";
+	font-weight: 100;
+	font-size: 2vw;
+	color: #211e16;
+}
+
+.job-body p {
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: left;
+	line-height: 1.8;
+	color: #63666A;
+}
+
+.job-body a {
+	color: #211e16;
+	font-weight: 700;
+}
+
+@media (max-width: 768px) {
+	.modal-title {
+		font-size: 14px;
+	}
+	.job-body {
+		font-size: 12px;
+	}
+}
