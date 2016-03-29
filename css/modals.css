@@ -6,6 +6,10 @@
 	color: #ecf0f1;
 }
 
+.modal-body {
+	background-color: #63666A;
+}
+
 .close {
 	color: #ecf0f1;
 }
@@ -18,7 +22,7 @@
 	font-family: "Lato";
 	font-weight: 100;
 	font-size: 2vw;
-	color: #211e16;
+	color: #ecf0f1;
 }
 
 .job-body p {
@@ -26,12 +30,12 @@
 	font-weight: 300;
 	text-align: left;
 	line-height: 1.8;
-	color: #63666A;
+	color: #ecf0f1;
 	margin-bottom: 0;
 }
 
 .job-body a {
-	color: #211e16;
+	color: #ecf0f1;
 	font-weight: 700;
 }
 
@@ -41,5 +45,11 @@
 	}
 	.job-body {
 		font-size: 12px;
+	}
+}
+
+@media (min-width: 768px) {
+	.modal-dialog {
+		width: 50%;
 	}
 }
