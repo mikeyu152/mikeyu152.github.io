@@ -1,3 +1,19 @@
+.modal-header {
+	background-color: #63666A;
+}
+
+.modal-header h4 {
+	color: #ecf0f1;
+}
+
+.close {
+	color: #ecf0f1;
+}
+
+.close:hover {
+	color: #fff;
+}
+
 .modal-title {
 	font-family: "Lato";
 	font-weight: 100;
@@ -11,6 +27,7 @@
 	text-align: left;
 	line-height: 1.8;
 	color: #63666A;
+	margin-bottom: 0;
 }
 
 .job-body a {
