@@ -70,4 +70,9 @@ body {
 		font-weight: 100;
 		font-size: 14px;
 		color: #211e16;
+	}
+	
+	.sidebar a {
+		font-size: 14px;
+	}
 }
