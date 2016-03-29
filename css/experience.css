@@ -21,6 +21,7 @@
 .skills-tab h5 {
 	font-family: "Lato";
 	color: #ecf0f1;
+	letter-spacing: 1px;
 }
 
 .skills-tab h6 {
@@ -29,6 +30,7 @@
 	color: #ecf0f1;
 	text-align: left;
 	padding-left: 5%;
+	letter-spacing: 1px;
 }
 
 .skill {
