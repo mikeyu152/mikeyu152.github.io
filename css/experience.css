@@ -19,10 +19,12 @@
 }
 
 .skills-tab h5 {
+	font-family: "Lato";
 	color: #ecf0f1;
 }
 
 .skills-tab h6 {
+	font-family: "Lato";
 	font-weight: 300;
 	color: #ecf0f1;
 	text-align: left;
